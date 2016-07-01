@@ -1,34 +1,53 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Everything up to this point</title>
-        <style>
-            #first{
-                line-height: 50px;
-            }
-            #second{
-                line-height: 50px;
-            }
-            body{
-                background-color: lightblue;
-            }
-            h1{
-                text-align: center
-            }
-            img{
-                border-radius: 100000px;
-                padding-left:400px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Our Header</h1>
-        <p id="first">
-            DIY sustainable ugh bespoke microdosing butcher bushwick, thundercats asymmetrical. Sustainable freegan actually narwhal man bun. Banjo retro artisan helvetica lomo venmo. Single-origin coffee chicharrones slow-carb yr microdosing, church-key four loko synth lomo next level keffiyeh tumblr. Meh cliche gentrify austin, pop-up normcore migas post-ironic. Dreamcatcher pinterest hoodie green juice. VHS raw denim gochujang etsy, viral food truck YOLO vinyl.<br/><br/>Bushwick synth kickstarter williamsburg, seitan normcore scenester forage affogato 8-bit semiotics skateboard authentic wolf whatever. 8-bit chia street art, skateboard franzen marfa leggings hella kickstarter distillery kale chips meh truffaut. Lomo lumbersexual pabst blue bottle. Pour-over fixie pitchfork yuccie 3 wolf moon chambray. Cray plaid kitsch synth irony knausgaard. Wayfarers literally art party venmo pinterest waistcoat. Roof party paleo hammock, street art marfa hella chillwave occupy.
-        </p>
-        <h1>Header 2</h1>
-        <p id="second">
-            DIY sustainable ugh bespoke microdosing butcher bushwick, thundercats asymmetrical. Sustainable freegan actually narwhal man bun. Banjo retro artisan helvetica lomo venmo. Single-origin coffee chicharrones slow-carb yr microdosing, church-key four loko synth lomo next level keffiyeh tumblr. Meh cliche gentrify austin, pop-up normcore migas post-ironic. Dreamcatcher pinterest hoodie green juice. VHS raw denim gochujang etsy, viral food truck YOLO vinyl.<br/><br/>Bushwick synth kickstarter williamsburg, seitan normcore scenester forage affogato 8-bit semiotics skateboard authentic wolf whatever. 8-bit chia street art, skateboard franzen marfa leggings hella kickstarter distillery kale chips meh truffaut. Lomo lumbersexual pabst blue bottle. Pour-over fixie pitchfork yuccie 3 wolf moon chambray. Cray plaid kitsch synth irony knausgaard. Wayfarers literally art party venmo pinterest waistcoat. Roof party paleo hammock, street art marfa hella chillwave occupy.
-        </p>
-            <img  src="https://static.pexels.com/photos/109066/pexels-photo-109066-medium.jpeg">
-    </body>
+<head>
+<style>
+    .parallax {
+        /* The image used */
+        background-image: url("https://static.pexels.com/photos/37403/bora-bora-french-polynesia-sunset-ocean-medium.jpg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallel {
+        /* The image used */
+    background-image: url("https://static.pexels.com/photos/26498/pexels-photo-26498-medium.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }    
+</style>
+</head>
+<body>
+    <h1></h1>
+
+<div class="parallax"></div>
+
+<div style="height:100px;background-color:salmon;font-size:30px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+
+</div>
+
+<div class="parallel"></div>
+
+<div style="height:100px;background-color:salmon;font-size:30px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+
+</div>    
+</body>
 </html>
