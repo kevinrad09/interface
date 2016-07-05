@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script   src="https://code.jquery.com/jquery-3.0.0.js"   integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="   crossorigin="anonymous"></script>
 <style>
     .parallax {
         /* The image used */
@@ -18,20 +19,33 @@
     
     .parallel {
         /* The image used */
-    background-image: url("https://static.pexels.com/photos/26498/pexels-photo-26498-medium.jpg");
+        background-image: url("https://static.pexels.com/photos/26498/pexels-photo-26498-medium.jpg");
 
-    /* Set a specific height */
-    min-height: 500px;
+        /* Set a specific height */
+        min-height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }    
+        body {
+        margin:0px;
+        }
+        h1 {
+        margin:0px;
+        }
+        nav {
+        position:fixed;
+        top:0px;
+        }
 </style>
 </head>
 <body>
+    <nav>
+        <a href="#">header</a>
+    </nav>
     <h1></h1>
 
 <div class="parallax"></div>
@@ -48,6 +62,7 @@ This div is just here to enable scrolling.
 Scroll Up and Down this page to see the parallax scrolling effect.
 This div is just here to enable scrolling.
 
-</div>    
+</div>
+    
 </body>
 </html>
